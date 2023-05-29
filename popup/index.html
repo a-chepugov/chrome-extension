@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<section>
+			<h2>search</h2>
+			<section>
+				<h3> google </h3>
+				<section>
+					<form id="site-cache">
+						<input style="width:100%" type="submit" value="page cache" />
+					</form>
+				</section>
+				<br/>
+				<section>
+					<form id="site-search" class="container">
+						<input class="element" name="parameters" />
+						<input class="element" type="submit" value="on site" />
+					</form>
+				</section>
+			</section>
+		</section>
+
+		<section>
+			<h2> storage </h2>
+			<form id="storage">
+				<table>
+					<caption> sync </caption>
+					<thead>
+						<tr>
+							<th></th>
+							<th>name</th>
+							<th>value</th>
+						</tr>
+					</thead>
+					<tbody id="storage-sync-items"></tbody>
+				</table>
+
+				<table>
+					<caption> local </caption>
+					<thead>
+						<tr>
+							<th></th>
+							<th>name</th>
+							<th>value</th>
+						</tr>
+					</thead>
+					<tbody id="storage-local-items"></tbody>
+				</table>
+			</form>
+		</section>
+
+		<script src="index.js" type="module"></script>
+	</body>
+
+</html>

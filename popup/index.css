@@ -1,0 +1,43 @@
+html, body {
+	width: 100%;
+	min-width: 480px;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+form {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+	border: collapse
+}
+
+caption {
+	font-size: 1rem;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+}
+
+table td {
+	margin: 1;
+	padding: 0;
+	vertical-align: top;
+}
+
+textarea {
+	width: 100%;
+	height: 100%;
+	resize: none
+}
+
+.container {
+	display: flex;
+}
+
+.element {
+	flex-grow: 1;
+}
